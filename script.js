@@ -25,7 +25,9 @@ function adding(result){
     var cell1 = row.insertCell(7);
     cell1.innerHTML = element['color'];
     var cell1 = row.insertCell(8);
-    cell1.innerHTML = element['price'];    
+    cell1.innerHTML = element['price'];  
+    var cell1 = row.insertCell(9);
+    cell1.innerHTML = element['knowing'];    
 });
 }
 d3.csv('./surface_sales_mock_data.csv').then(
